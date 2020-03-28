@@ -18,15 +18,15 @@ public class EMEA {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.selenium.dev/");
+		driver.get("https://www.amazon.in/");
 
 
-		WebElement elm = driver.findElement(By.xpath("//h2[contains(text(),'Donate to Selenium')]"));
+		WebElement elm = driver.findElement(By.xpath("//div[contains(text(),'Get to Know Us')]"));
 		JavascriptExecutor js=(JavascriptExecutor)driver;    	
 		js.executeScript("arguments[0].scrollIntoView();", elm);
 		
 		
-		Docx.run.setText("Seleniumhq-Donate to Selenium");
+		Docx.run.setText("amazon- Get to know us");
 		Docx.run.setFontSize(33);
 		Docx.captureScreenShot( Docx.run, Docx.out, Docx.dirPath);
 		

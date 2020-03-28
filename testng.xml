@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="regions.EMEA"/>
+      <class name="regions.APAC"/>
       <class name="util.Docx"/>
     </classes>
   </test> <!-- Test -->
