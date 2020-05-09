@@ -4,7 +4,7 @@
 	<groupId>com.word.screenshots</groupId>
 	<artifactId>word-screenshots</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>word-screenshots</name>
+	<name>word-screenshots123</name>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
